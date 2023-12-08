@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    height: 100;
+}
+body
+{
+    overflow: hidden;
+}
+
+.main-width
+{
+    width: 1400px;
+    max-width: 95%;
+  margin: 0 auto; 
+}
+.HERO
+{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: radial-gradient(#f9d349,20%,#d57e12);
+    position: relative;
+}
+.HERO header .logo h2 a
+{
+  display:block; 
+   font-size: 32px;
+   font-weight:400 ;
+   text-decoration: none;
+   color: aliceblue;
+}
+.HERO header
+{
+display: flex; 
+ align-items: center;
+ justify-content: space-between;
+ padding:30px 0 40px ;
+ 
+
+}
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a
+{
+   text-decoration: none; 
+   color: azure;
+   margin-left: 60px;
+   font-size: 15px;
+   font-weight: 500;
+   border-bottom: 2px solid transparent;
+   transition: .4s;
+}
+nav ul li a:hover,
+nav ul li a:focus{border-bottom: 2px solid whitesmoke;}
+nav ul li .active a
+{
+    border-bottom: 2px solid white;
+}
+nav ul li.btn a
+{
+    background: transparent;
+    color: white;
+    border: 1px solid #f5dca8;
+    padding: 9px 10px;
+    border-radius: 10px;
+    line-height: 1.4;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left:150px ;
+}
+nav ul li.btn:hover a
+{
+ border:1px solid white ; 
+ color: black; 
+ background:white; 
+ transition: .4s;
+}
+.context
+{
+    padding-top: 140px;
+
+}
+.context .main-text
+{
+  position: relative; 
+  z-index: 2; 
+  margin-bottom:50px ;
+}
+.context .main-text h6
+{
+  font-size: 14px;
+  font-weight: 400; 
+   color:aliceblue;
+   margin-bottom:40px;
+}
+.context .main-text h1
+{
+    font-size: 100px;
+    line-height: 1;
+    color:white ;
+    margin: 0px 0px 45px;
+    font-family: 'permanent Marker',cursive;
+}
+.context .main-text h4
+{
+ font-size:18px ; 
+ font-weight:600 ;
+ color: aqua;
+
+
+}
+.context .main-text p
+{
+    min-width: 90%;
+    width: 400px;
+    color: white;
+    line-height: 1.4;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+.context .main-text a
+{
+    display: inline-block;
+    color: rgb(21, 16, 16);
+    text-decoration: none;
+    background: white;
+    border: 1px solid white;
+    padding: 9px 25px ;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 500;
+
+}
+.context .main-text a:hover
+{
+ transform: scale(1.2); 
+ border: 2px solid  #f5dca8; 
+ background: transparent; 
+ color: white;
+ transition: .4s;
+ 
+ 
+}
+.context .main-text a.cta
+{
+    border: 1px solid  #f5dca8 ;
+    color: white;
+    background: transparent;
+    margin-left: 20px;
+}
+.context .main-text a.cta i
+{
+margin-right: 12px;
+}
+.context .main-text a.cta:hover
+{
+    transform: scale(1.2); 
+    border: 2px solid  #f5dca8; 
+    background: white; 
+    color:black;
+    transition: .4s;
+    
+}
+.context .social 
+{
+    position: relative;
+    z-index: 2;
+    margin-top: 200;
+    padding-bottom: 40px;
+}
+.context .social a 
+{
+    display: inline-block;
+    color:#f5dcac;
+    margin-right: 23px;
+    font-size: 24px;
+}
+.context .social a:hover
+{
+    transform: scale(1.2); 
+    
+     
+    color:black;
+    transition: .4s;
+}
+.image
+{
+    position: absolute;
+    width:100% ;
+    height: 85%;
+    bottom:0;
+    left: 0%;
+    text-align: right;
+     
+
+}
+.image img
+{
+    height: 100%;
+}
+
+    
+
+
